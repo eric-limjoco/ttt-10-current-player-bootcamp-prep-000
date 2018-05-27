@@ -3,5 +3,5 @@ def turn_count(board)
   board.each |c| do
     c == "X" || c == "O" ? num+=1
   end
-  num
+  return num
 end
